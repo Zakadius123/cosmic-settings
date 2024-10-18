@@ -1472,7 +1472,7 @@ dependencies = [
 [[package]]
 name = "cosmic-config"
 version = "0.1.0"
-source = "git+https://github.com/pop-os/libcosmic#795654610a2875fe4316add18df6f33a4bc86af1"
+source = "git+https://github.com/pop-os/libcosmic#fde0516484750e0a7d2499e54964c5ed6ba8e16b"
 dependencies = [
  "atomicwrites",
  "cosmic-config-derive",
@@ -1494,7 +1494,7 @@ dependencies = [
 [[package]]
 name = "cosmic-config-derive"
 version = "0.1.0"
-source = "git+https://github.com/pop-os/libcosmic#795654610a2875fe4316add18df6f33a4bc86af1"
+source = "git+https://github.com/pop-os/libcosmic#fde0516484750e0a7d2499e54964c5ed6ba8e16b"
 dependencies = [
  "quote",
  "syn 1.0.109",
@@ -1512,6 +1512,15 @@ dependencies = [
  "time",
  "zbus 4.4.0",
  "zvariant 4.2.0",
+]
+
+[[package]]
+name = "cosmic-idle-config"
+version = "0.1.0"
+source = "git+https://github.com/pop-os/cosmic-idle#b384ea9fa22918a8a52e66411bb1fd71d512f112"
+dependencies = [
+ "cosmic-config",
+ "serde",
 ]
 
 [[package]]
@@ -1586,6 +1595,7 @@ dependencies = [
  "cosmic-comp-config",
  "cosmic-config",
  "cosmic-dbus-networkmanager",
+ "cosmic-idle-config",
  "cosmic-panel-config",
  "cosmic-randr",
  "cosmic-randr-shell",
@@ -3128,7 +3138,7 @@ dependencies = [
 [[package]]
 name = "iced_accessibility"
 version = "0.1.0"
-source = "git+https://github.com/pop-os/libcosmic#795654610a2875fe4316add18df6f33a4bc86af1"
+source = "git+https://github.com/pop-os/libcosmic#fde0516484750e0a7d2499e54964c5ed6ba8e16b"
 dependencies = [
  "accesskit",
  "accesskit_winit",
@@ -3137,7 +3147,7 @@ dependencies = [
 [[package]]
 name = "iced_core"
 version = "0.14.0-dev"
-source = "git+https://github.com/pop-os/libcosmic#795654610a2875fe4316add18df6f33a4bc86af1"
+source = "git+https://github.com/pop-os/libcosmic#fde0516484750e0a7d2499e54964c5ed6ba8e16b"
 dependencies = [
  "bitflags 2.6.0",
  "bytes",
@@ -3162,7 +3172,7 @@ dependencies = [
 [[package]]
 name = "iced_futures"
 version = "0.14.0-dev"
-source = "git+https://github.com/pop-os/libcosmic#795654610a2875fe4316add18df6f33a4bc86af1"
+source = "git+https://github.com/pop-os/libcosmic#fde0516484750e0a7d2499e54964c5ed6ba8e16b"
 dependencies = [
  "futures",
  "iced_core",
